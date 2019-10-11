@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solictar-Paquete</title>
+    <link rel="ICON" type="iMAGEN/PNG" href="Img/logotipo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+
+</head>
+
+<body>
+    <div class="Contenedor ">
+        <form name="contactForm" onsubmit="return validateForm()" action="Index.html" method="post">
+            <h2>Solicitud</h2>
+            <div class="row-f">
+                <label>Nombre Completo</label>
+                <input type="text" name="name">
+                <div class="error" id="nameErr"></div>
+            </div>
+            <div class="row-f">
+                <label>Direccion de Correo</label>
+                <input type="text" name="email">
+                <div class="error" id="emailErr"></div>
+            </div>
+            <div class="row-f">
+                <label>Telefono Movil</label>
+                <input type="text" name="mobile" maxlength="10">
+                <div class="error" id="mobileErr"></div>
+            </div>
+            <div class="Country-f">
+                <label>Region</label>
+                <select name="country">
+                                    <option>seleccionar</option>
+                                    <option>Arica y Parinacota</option>
+                                    <option>Tarapacá</option>
+                                    <option>Antofagasta</option>
+                                    <option>Atacama</option>
+                                    <option>Coquimbo</option>
+                                    <option>Valparaíso</option>
+                                    <option>Región del Libertador Gral. Bernardo O’Higgins</option>
+                                    <option>Región del Maule</option>
+                                    <option>Región del Biobío</option>
+                                    <option>Región de la Araucanía</option>
+                                    <option>Región de Los Ríos</option>
+                                    <option>Región de Los Lagos</option>
+                                    <option>Región Aisén del Gral. Carlos Ibáñez del Campo</option>
+                                    <option>Región de Magallanes y de la AntárVca Chilena</option>
+                                    <option>Región Metropolitana de Santiago</option>
+                                </select>
+                <div class="error" id="countryErr"></div>
+            </div>
+            <div class="row-f">
+                <label>Genero</label>
+                <div class="form-inline">
+                    <label><input type="radio" name="gender" value="Hombre"> Hombre</label>
+                    <label><input type="radio" name="gender" value="Mujer"> Mujer</label>
+                </div>
+                <div class="error" id="genderErr"></div>
+            </div>
+            <div class="row-f">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <script src="js/Form.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
