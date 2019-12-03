@@ -1,0 +1,27 @@
+{% extends "shop/basic.html" %} {% load crispy_forms_tags %} {% block body %}
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div class="card">
+            <div class="card-body">
+                <h2>Registro</h2>
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <label for="inputEmail4">Nombre</label>
+                    <input type="text" name="first_name" class="form-control" placeholder="Nombre">
+                    <label for="inputEmail4">Apellido</label>
+                    <input type="text" name="last_name" class="form-control" placeholder="Apellido">
+                    <label for="inputEmail4">Nombre Usuario</label>
+                    <input type="text" name="username" class="form-control" placeholder="Nombre Usuario">
+                    <label for="inputEmail4">Email</label>
+                    <input type="text" name="email" class="form-control" placeholder="Email">
+                    <label for="inputEmail4">Contraseña</label>
+                    <input type="text" name="password1" class="form-control" placeholder="Contraseña">
+                    <label for="inputEmail4">Confirmar Contraseña</label>
+                    <input type="text" name="password2" class="form-control" placeholder="Confirmar Contraseña">
+                    <button type="submit" class="btn btn-primary my-4">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

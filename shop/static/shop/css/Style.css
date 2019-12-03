@@ -1,0 +1,230 @@
+.formato {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+    width: 300px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.formato_carusel {
+    width: 100%;
+    height: 30rem;
+}
+
+.collapse ul li a {
+    color: #313807;
+}
+
+.navbar a {
+    color: #313807;
+}
+
+.collapse ul li a:hover {
+    background-color: #adfac9;
+    border: 3px;
+    border-radius: 4px;
+}
+
+.diseño_boton {
+    background-color: #adfac9;
+    border: 3px;
+    border-radius: 4px;
+}
+
+.carousel-item h5 {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000cc;
+}
+
+.carousel-item p {
+    font-size: 3rem;
+    color: #00ff0d;
+}
+
+.navbar {
+    background-color: #d1ffe2;
+}
+
+
+/*Diseño Footer*/
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d1ffe2;
+    color: #000000;
+    text-align: left;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.Redes-Sociales {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.Imagenes-Redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+}
+
+.Contenedor_Linea {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+}
+
+.Columna a {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**************************************************/
+
+
+/*Iconos_Redes*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 30%;
+}
+
+.face:hover {
+    background: #1877f2;
+    opacity: 0.7;
+}
+
+.twte:hover {
+    background: #55ACEE;
+    opacity: 0.7;
+}
+
+.insta:hover {
+    background: #c32aa3;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: #000000;
+}
+
+.fa-instagram {
+    color: #000000;
+}
+
+.fa-twitter {
+    color: #000000;
+}
+
+
+/***************************************************/
+
+.Formato_foto {
+    width: 30rem;
+}
+
+.row p {
+    text-align: justify;
+    font-size: 22px;
+}
+
+@media (min-width: 0px) and (max-width:530px) {
+    .diseño {
+        width: 13rem;
+        height: 7rem;
+    }
+}
+
+@media (min-width: 750px) and (max-width:993px) {
+    .diseño {
+        width: 29rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1200px) {
+    .diseño {
+        width: 29rem;
+        height: 15rem;
+    }
+}
+
+.vista_diseño {
+    background-color: rgba(48, 78, 88, 0.39);
+    border: 3px;
+    border-radius: 3rem;
+}
+
+.container .diseño img {
+    border: lightseagreen;
+    border-radius: 4rem;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    text-align: center;
+}
+
+@media (min-width: 533px) and (max-width:560px) {
+    .diseño_contacto {
+        width: 20rem;
+        height: 13rem;
+    }
+}
+
+@media (min-width: 750px) and (max-width:993px) {
+    .diseño_contacto {
+        width: 22rem;
+        height: 25rem;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1200px) {
+    .diseño_contacto {
+        width: 29rem;
+        height: 30rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:2000px) {
+    .diseño_contacto {
+        width: 29rem;
+        height: 30rem;
+    }
+}
+
+.diseño_Filtro {
+    background: #f2f2f2;
+    height: auto;
+    min-height: 400px;
+    width: auto;
+    margin: 1% 5%;
+}
